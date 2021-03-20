@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="/homestyle/style.css" />
+</head>
+<body>
+  <div class="container" > 
+    <div class="content">
+      <div id="validador">
+        <form method="get" action="/valida-cpf"> 
+          <h1>Validador de CPF</h1> 
+          <p> 
+            <label for="nome">Nome Completo</label>
+            <input name="nome" required="required" type="text"/>
+          </p>  
+          <p> 
+            <label for="cpf">CPF</label>
+            <input name="cpf" required="required" type="text" placeholder="000.000.000-00" /> 
+          </p>           
+          <p> 
+            <button type="submit" value="Verificar">Verificar</button> 
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
